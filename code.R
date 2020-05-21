@@ -901,7 +901,7 @@ dev.off()
 
 #
 # Great Britain
-#
+# https://github.com/OrdnanceSurvey/equal-area-cartogram
 
 great_britain = read_csv("lad-cartogram-square-2019-great-britain.csv")
 
