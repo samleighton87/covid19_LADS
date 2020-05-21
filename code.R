@@ -74,7 +74,7 @@ diag(M) = NA
 res1 = cor.mtest(Data_imp[,-29], conf.level = .95)
 pdf("corr_predictors.pdf",height=10,width=10)
 corrplot(M, p.mat = res1$p, order = "hclust", sig.level = c(.001, .01, .05), pch.cex = .9,
-         insig = "label_sig", pch.col = "white", addrect = 5, method = "color",na.label = " ", col = viridis(100), tl.col = "black")
+         insig = "label_sig", pch.col = "white", addrect = 4, method = "color",na.label = " ", col = viridis(100), tl.col = "black")
 dev.off()
 
 #not care home funding excecpt for care home model
