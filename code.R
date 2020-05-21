@@ -65,7 +65,7 @@ Data_imp = plyr::rename(Data_imp, c("Density_People_sq_km"="Population Density",
                      "Median_Age_2018"="Age","Over_1_5_Per_Room"="Crowded Living","Obese_Z_Ind"="Obesity",
                     "Current_Smoking_Z_Ind"="Smoking (current)","Ex_Smoker_Z_Ind"="Ex-Smokers","Tonnes_Port_Over_750"="Port Activity",
                    "Passengers_To_From_Pop_Stand_Normalised"="Flight Passengers","Age_Standardised_CVD_Deaths_U75_100000"="CVD deaths (<75)",
-                     "Diabetes_Prevalence_Z_Ind"="Diabetes","RA_Z_Ind"="Theumatoid Arthritis","HTN_Z_Ind"="Hypertension","COPD_Z_Ind"="COPD","Cancer_Z_Ind"="Cancer",
+                     "Diabetes_Prevalence_Z_Ind"="Diabetes","RA_Z_Ind"="Rheumatoid Arthritis","HTN_Z_Ind"="Hypertension","COPD_Z_Ind"="COPD","Cancer_Z_Ind"="Cancer",
                    "CKD_Z_Ind"="CKD", "Average_Humid_23_2_1_3_8_3_15_3"="Humidity","Average_tempHighCel_23_2_1_3_8_3_15_3"="Temperature", 
                    "Coronavirus_Google_010220_190320"="Google Searching","Dementia_Z_Ind"="Dementia","Self_Funders_2017"="Self-Funding Care Home", 
                    "PM_2_5_Total_2018"= "Air Pollution"))
