@@ -77,7 +77,6 @@ corrplot(M, p.mat = res1$p, order = "hclust", sig.level = c(.001, .01, .05), pch
          insig = "label_sig", pch.col = "white", addrect = 4, method = "color",na.label = " ", col = viridis(100), tl.col = "black")
 dev.off()
 
-#not care home funding excecpt for care home model
 tempData_all <- mice(covid_death_all_data,seed=987)
 summary(tempData_all)
 
@@ -280,8 +279,6 @@ covid_death_care = covid_all[ ,!(colnames(covid_all) %in% c("Death_Registrations
                                                            "Death_Registrations_Home_Covid_Week_16",
                                                            "Death_Registrations_Home_Covid_Week_16_Per_100000",
                                                            "Death_Registrations_OoHosp_Week_16","Death_Registrations_OoHosp_Week_16_Per_100000"))]
-
-#summary of missing data - max missing 5.5%
 
 covid_death_care_data = covid_death_care[,-c(1,5:8)]
 
